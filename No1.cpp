@@ -8,4 +8,12 @@ int main(){
 	cin >> x;
 	cout << "Masukan Nilai Y : ";
 	cin >> y;
+	
+	if(x>=y){
+		hasil=(x-y);
+	}
+	else{
+		hasil=(y-x);
+	}
+	cout << "Hasil :"<<hasil<<endl;
 }
