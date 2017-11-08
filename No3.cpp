@@ -20,4 +20,6 @@ int main(){
 		pajak=gp*0.15;
 		gttl=gp-pajak;
 	}
+	
+	cout <<"Gajih Pegawai : "<<gttl<<"Rp"<<endl;
 }
