@@ -8,4 +8,14 @@ int main(){
 	cin >> tb;
 	cout << "Masukan Berat Badan : ";
 	cin >> bb;
+	
+	if(bb<tb/2.5){
+		cout<<"Anda Underweight";
+	}
+	else if(tb/2.3<bb){
+		cout<<"Anda Overweight";
+	}
+	else if(tb/2.5<=tb<=tb/2.3){
+		cout<<"Anda Normal";
+	}
 }
