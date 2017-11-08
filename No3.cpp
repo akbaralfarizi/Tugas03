@@ -9,4 +9,15 @@ int main(){
 	cin >> gp;
 	cout << "Masukan Jam Kerja : ";
 	cin >> jk;
+	
+	if(jk>40){
+	lembur=(jk-40)*(gp/40);
+	gt=(lembur*1.5)+gp;
+	pajak=gp*0.15;
+	gttl=gt-pajak;
+	}
+	else{
+		pajak=gp*0.15;
+		gttl=gp-pajak;
+	}
 }
