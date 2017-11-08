@@ -21,4 +21,5 @@ int main(){
 		cin >> t;
 		L=0.5*(a*t);
 	}
+		cout << "Luas Bidang : "<<L<<endl;
 }
